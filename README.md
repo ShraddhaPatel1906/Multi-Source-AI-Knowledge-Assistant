@@ -180,33 +180,20 @@ Documents / Website / YouTube
 
 ## 🏠 Home Page
 
-Replace with your screenshot.
-
-```markdown
-![Home](home_page.png)
-```
+![Home Page](home_page.png)
 
 ---
 
-## 📂 Upload Documents
+## 📂 Upload Knowledge Source
 
-Replace with your screenshot.
-
-```markdown
-![Upload](Question-Answer.png)
-```
+![Upload Knowledge Source](uploaded-knowledge-source.png)
 
 ---
 
-## 💬 Question Answering
+## ❓ Question Answer
 
-Replace with your screenshot.
+![Question Answer](Question-Answer.png)
 
-```markdown
-![Output](uploaded-knowledge-source.png)
-```
-
----
 
 # 🚀 Supported Knowledge Sources
 
