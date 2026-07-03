@@ -1,0 +1,288 @@
+# 🤖 Multi-Source AI Knowledge Assistant
+
+An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to ask questions from multiple knowledge sources including **PDFs, DOCX files, TXT files, Websites, and YouTube videos**.
+
+Built using **LangChain**, **Groq LLM**, **HuggingFace Embeddings**, **ChromaDB**, and **Streamlit**.
+
+---
+
+## 🚀 Features
+
+- 📄 Upload PDF documents
+- 📝 Upload DOCX documents
+- 📃 Upload TXT files
+- 🌐 Extract knowledge from websites
+- 🎥 Extract transcripts from YouTube videos
+- 💬 Ask questions in natural language
+- 🧠 Conversational memory for follow-up questions
+- ⚡ Fast inference using Groq LLM
+- 📚 Source-based answers using RAG
+- 🎨 Clean and interactive Streamlit UI
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Streamlit | User Interface |
+| LangChain | RAG Pipeline |
+| Groq | Large Language Model |
+| HuggingFace | Embeddings |
+| ChromaDB | Vector Database |
+| youtube-transcript-api | YouTube Transcript Extraction |
+| BeautifulSoup | Website Parsing |
+
+---
+
+# 📂 Project Structure
+
+```
+Multi-Source-AI-Knowledge-Assistant/
+│
+├── app.py
+├── multi_source_ai_knowledge.py
+├── requirements.txt
+├── README.md
+│
+├── chroma_db/
+│
+├── screenshots/
+│   ├── home.png
+│   ├── upload.png
+│   └── output.png
+│
+└── assets/
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Multi-Source-AI-Knowledge-Assistant.git
+
+cd Multi-Source-AI-Knowledge-Assistant
+```
+
+## Create Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Configure Environment Variables
+
+Create a `.env` file.
+
+```
+GROQ_API_KEY
+```
+
+---
+
+# ▶️ Run Application
+
+```bash
+streamlit run app.py
+```
+
+Application will open at
+
+```
+http://localhost:8501
+```
+
+---
+
+# 📌 Supported Knowledge Sources
+
+✅ PDF Files
+
+✅ DOCX Files
+
+✅ TXT Files
+
+✅ Websites
+
+✅ YouTube Videos (Transcript Required)
+
+---
+
+# 💡 How It Works
+
+1. Upload one or multiple documents.
+2. Provide a website or YouTube URL (optional).
+3. Documents are split into chunks.
+4. Chunks are converted into embeddings.
+5. Embeddings are stored in ChromaDB.
+6. User asks questions.
+7. Relevant chunks are retrieved.
+8. Groq LLM generates contextual answers.
+
+---
+
+# 🖥️ Screenshots
+
+## 🏠 Home Page
+
+Replace this image with your screenshot.
+
+```markdown
+![Home](hone_page.png)
+```
+
+---
+
+## 📂 Upload Knowledge Sources
+
+Replace this image with your screenshot.
+
+```markdown
+![Upload](uploaded-knowledge-source.png)
+```
+
+---
+
+## 💬 Question Answering
+
+Replace this image with your screenshot.
+
+```markdown
+![Output](Question-Answer.png)
+```
+
+---
+
+# 📈 Example Workflow
+
+```
+User Input
+
+      │
+
+      ▼
+
+Upload PDF / Website / YouTube
+
+      │
+
+      ▼
+
+Text Extraction
+
+      │
+
+      ▼
+
+Chunking
+
+      │
+
+      ▼
+
+Embedding Generation
+
+      │
+
+      ▼
+
+Chroma Vector Database
+
+      │
+
+      ▼
+
+Retriever
+
+      │
+
+      ▼
+
+Groq LLM
+
+      │
+
+      ▼
+
+Final Answer
+```
+
+---
+
+# 📦 Requirements
+
+- Python 3.11+
+- Streamlit
+- LangChain
+- LangChain Community
+- LangChain Groq
+- HuggingFace Embeddings
+- ChromaDB
+- youtube-transcript-api
+- BeautifulSoup4
+
+---
+
+# ⭐ Future Improvements
+
+- Authentication
+- Chat History Database
+- Multiple LLM Support
+- Image Understanding
+- OCR Support
+- Audio File Support
+- Persistent User Sessions
+- Multi-language Support
+
+---
+
+# 👩‍💻 Author
+
+**Shraddha Patel**
+
+M.Sc. Data Science  
+Indian Institute of Information Technology, Lucknow (IIIT Lucknow)
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 🙏 Acknowledgements
+
+- LangChain
+- Streamlit
+- Groq
+- HuggingFace
+- ChromaDB
+- YouTube Transcript API
+- BeautifulSoup
