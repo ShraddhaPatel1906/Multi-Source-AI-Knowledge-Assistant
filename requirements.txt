@@ -1,13 +1,16 @@
 streamlit
+
+python-dotenv
+
 langchain==0.3.27
 langchain-community==0.3.27
-langchain-core==0.3.72
+langchain-core==0.3.79
 langchain-text-splitters==0.3.9
-langchain-groq==0.3.8
+langchain-groq==0.2.5
 
-chromadb
+chromadb==0.5.23
 
-sentence-transformers
+sentence-transformers==3.3.1
 
 huggingface-hub
 
@@ -17,6 +20,6 @@ docx2txt
 
 beautifulsoup4
 
-youtube-transcript-api
+youtube-transcript-api==1.2.2
 
-python-dotenv
+groq==0.13.0
